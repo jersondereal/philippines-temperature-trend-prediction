@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { hasEnvVars } from "@/utils/supabase/check-env-vars";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Geist } from "next/font/google";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   description: "Climate Forecast for the Philippines",
 };
 
-const geistSans = Geist({
-  display: "swap",
+const interFont = Inter({
   subsets: ["latin"],
+  display: "swap",
 });
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={geistSans.className} suppressHydrationWarning>
+    <html lang="en" className={interFont.className} suppressHydrationWarning>
       <body className="bg-background text-foreground">
         <ThemeProvider
           attribute="class"
