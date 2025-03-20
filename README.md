@@ -5,10 +5,12 @@ A web-based application for analyzing and predicting temperature trends in the P
 ## Features
 
 - **Two Prediction Models**:
+
   - Polynomial Regression (2nd degree)
   - 5-Year Moving Average
 
 - **Interactive Visualization**:
+
   - Historical temperature data
   - 5-year smoothed trends
   - Prediction trend lines
@@ -33,11 +35,13 @@ A web-based application for analyzing and predicting temperature trends in the P
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up environment variables:
+
    - Create `.env.local` file
    - Add Supabase credentials:
      ```
@@ -46,6 +50,7 @@ A web-based application for analyzing and predicting temperature trends in the P
      ```
 
 4. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -55,18 +60,21 @@ A web-based application for analyzing and predicting temperature trends in the P
 ## Features in Detail
 
 ### Temperature Prediction
+
 - Uses historical temperature data from the Philippines
 - Provides two different prediction models for comparison
 - Validates predictions against historical ranges
 - Shows confidence metrics for predictions
 
 ### Data Visualization
+
 - Interactive line charts
 - Multiple data series display
 - Automatic scale adjustment
 - Trend line visualization
 
 ### User Authentication
+
 - Secure sign-up/sign-in
 - Protected routes
 - Password reset functionality
@@ -88,3 +96,7 @@ This project is part of an academic requirement and is not open for contribution
 ## License
 
 This project is created for academic purposes only.
+
+## Deployment Notes
+
+- Updated configuration to support Vercel deployment - March 20, 2025
