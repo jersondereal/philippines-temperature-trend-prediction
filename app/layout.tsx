@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://climatecastph.vercel.app/twitter-image.png",
+        url: "opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Philippines Temperature Trend Analysis",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "ClimateCast PH",
     description:
       "Philippines Temperature Trend Analysis and Climate Forecasting",
-    images: ["https://climatecastph.vercel.app/twitter-image.png"],
+    images: ["twitter-image.png"],
   },
 };
 
