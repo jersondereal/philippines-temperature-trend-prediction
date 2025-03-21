@@ -38,6 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "climatecastph.vercel.app",
+    creator: "@jersondereal",
     title: "ClimateCast PH",
     description:
       "Philippines Temperature Trend Analysis and Climate Forecasting",
