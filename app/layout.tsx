@@ -17,10 +17,11 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "JC ClimateCast PH",
+  title: "ClimateCast PH",
   description: "Climate Forecast for the Philippines",
+  creator: "@jersondereal",
   openGraph: {
-    title: "JC ClimateCast PH",
+    title: "ClimateCast PH",
     description:
       "Explore historical temperature data and climate change predictions for the Philippines from 1901 to 2100",
     url: defaultUrl,
