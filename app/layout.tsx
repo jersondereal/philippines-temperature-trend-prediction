@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   title: "ClimateCast PH",
   description: "Climate Forecast for the Philippines",
   creator: "@jersondereal",
+
   openGraph: {
     title: "ClimateCast PH",
     description:
@@ -28,15 +29,9 @@ export const metadata: Metadata = {
     siteName: "ClimateCast PH",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Philippines Temperature Trend Analysis",
-      },
-    ],
+    images: ["opengraph-image.png"],
   },
+
   twitter: {
     card: "summary_large_image",
     site: "climatecastph.vercel.app",
@@ -46,6 +41,7 @@ export const metadata: Metadata = {
       "Philippines Temperature Trend Analysis and Climate Forecasting",
     images: ["twitter-image.png"],
   },
+  
 };
 
 const interFont = Inter({
