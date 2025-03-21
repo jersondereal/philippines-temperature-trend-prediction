@@ -3,6 +3,7 @@ import HeaderAuth from "@/components/header-auth";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Toaster } from "@/components/ui/toaster";
 import { hasEnvVars } from "@/utils/supabase/check-env-vars";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
@@ -74,6 +75,7 @@ export default function RootLayout({
           </main>
         </ThemeProvider>
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
