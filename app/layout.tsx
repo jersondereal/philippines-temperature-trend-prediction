@@ -4,7 +4,7 @@ import { ThemeSwitcher } from "@/components/theme-switcher";
 import { Toaster } from "@/components/ui/toaster";
 import { hasEnvVars } from "@/utils/supabase/check-env-vars";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
@@ -19,6 +19,30 @@ export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "JC ClimateCast PH",
   description: "Climate Forecast for the Philippines",
+  openGraph: {
+    title: "JC ClimateCast PH",
+    description:
+      "Explore historical temperature data and climate change predictions for the Philippines from 1901 to 2100",
+    url: defaultUrl,
+    siteName: "ClimateCast PH",
+    locale: "en_US",
+    type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Philippines Temperature Trend Analysis",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ClimateCast PH",
+    description:
+      "Philippines Temperature Trend Analysis and Climate Forecasting",
+    images: ["/twitter-image.png"],
+  },
 };
 
 const interFont = Inter({
