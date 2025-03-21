@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/climatecastph.png",
         width: 1200,
         height: 630,
         alt: "Philippines Temperature Trend Analysis",
