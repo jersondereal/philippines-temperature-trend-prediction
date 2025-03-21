@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "ClimateCast PH",
     locale: "en_US",
     type: "website",
-    images: ["opengraph-image.png"],
+    images: ["climatecastph-dark.png"],
   },
 
   twitter: {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "ClimateCast PH",
     description:
       "Philippines Temperature Trend Analysis and Climate Forecasting",
-    images: ["twitter-image.png"],
+    images: ["climatecastph-dark.png"],
   },
   
 };
